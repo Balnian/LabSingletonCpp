@@ -21,6 +21,7 @@ int main(char args[])
    {
       Acteurs.emplace_back(trim(i));
    }
+   
   
    cout << Acteur::nbrActeur() << endl;
    for (size_t i = 0; i < Acteurs.size(); i++)
